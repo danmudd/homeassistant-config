@@ -6,3 +6,5 @@ homeassistant:
   temperature_unit: C
   time_zone: Europe/London
   unit_system: metric
+
+switch: !include switches.yaml

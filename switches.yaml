@@ -1,0 +1,10 @@
+- platform: tapo_p100_control
+  ip_address: 192.168.0.19
+  name: Bedroom Lamp
+  email: !secret tapo_email
+  password: !secret tapo_password
+- platform: tapo_p100_control
+  ip_address: 192.168.0.31
+  name: Downstairs Lamp
+  email: !secret tapo_email
+  password: !secret tapo_password
